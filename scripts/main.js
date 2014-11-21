@@ -5,7 +5,7 @@
 
   app.config( function ($routeProvider, RestangularProvider) {
 
-    RestangularProvider.setBaseUrl('http://tiy-atl-fe-server.herokuapp.com/collections/');
+    RestangularProvider.setBaseUrl('http://tiy-atl-fe-server.herokuapp.com/collections/enomosayos');
 
     $routeProvider.when('/', {
       templateUrl: 'templates/home.html',
@@ -35,6 +35,7 @@
   });
 
 }());
+
 (function () {
 
   angular.module('HolidayList')
